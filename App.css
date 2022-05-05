@@ -1,0 +1,40 @@
+
+
+@font-face{
+    font-family: 'Handwriting';
+    src: url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
+}
+
+body{
+    background: url(./Circuit\ Board.svg);
+    height: fit-content;
+}
+
+.header h1{
+    font-family: 'Handwriting', cursive;
+    font-size: 440%;
+    font-weight: bold;
+    color: rgb(2, 125, 2);
+    text-align: center;
+}
+
+.container{
+    background-color: rgb(10, 12, 4);
+    width:fit-content;
+    border-radius: 6px;
+    margin: 0.5em auto 4em;
+    border: 1.5px solid rgb(1, 87, 1);
+}
+
+.btn{
+    text-align: center;
+    margin-top: 3em;
+}
+
+.btn button{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.9em;
+    margin: 0.5em;
+}
+
